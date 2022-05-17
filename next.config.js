@@ -4,12 +4,11 @@ module.exports = {
     //
     // basePath: '/app',
   
-    async redirects() {
+    async rewrites() {
       return [
         {
           source: '/',
-          destination: '/index',
-          permanent: false,
+          destination: '/'
         },
       ]
     },
